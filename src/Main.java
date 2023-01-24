@@ -127,14 +127,13 @@ public class Main {
     public static void task3 () {
         int[] arr = generateRandomArray();
         double sum = 0;
-        double maxDay= sum/30;
 
         for (int i = 0; i < arr.length; i++){
-            sum = (sum + arr[i]) / 30 ;
+            sum = sum + arr[i];
 
 
         }
-        System.out.println("Средняя сумма затрат за месяц составила " + sum + " рублей.");
+        System.out.println("Средняя сумма затрат за месяц составила " + sum / arr.length + " рублей.");
     }
     public static void task4 () {
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
