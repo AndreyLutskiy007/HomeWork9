@@ -130,8 +130,6 @@ public class Main {
 
         for (int i = 0; i < arr.length; i++){
             sum = sum + arr[i];
-
-
         }
         System.out.println("Средняя сумма затрат за месяц составила " + sum / arr.length + " рублей.");
     }
